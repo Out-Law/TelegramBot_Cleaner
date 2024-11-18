@@ -1,0 +1,6 @@
+sudo systemctl restart telegram_bot.service
+sudo systemctl start telegram_bot.servic
+sudo systemctl stop telegram_bot.service
+sudo systemctl status telegram_bot.service
+sudo journalctl -u telegram_bot.service -xe
+sudo systemctl daemon-reload
